@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="hammer.Hammer" project="HammerImpt" file="/HammerImpt/src/hammer/Hammer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="49" width="299" x="815" y="130"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="hammer.core.Core.Impl" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/core/Core.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="27" width="146" x="585" y="203"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="hammer.core.Core.RankedWeaver" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/core/Core.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="121" x="660" y="256"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="hammer.core.Core" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/core/Core.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="44" width="143" x="586" y="130"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="hammer.core.Core.Impl.CoreThread" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/core/Core.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="124" x="527" y="256"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="hammer.core.Core.RankedWeaverComparator" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/core/Core.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="721" y="305"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="hammer.world.World" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/world/World.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="40" width="194" x="1153" y="129"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="hammer.state.State" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/state/State.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="38" width="197" x="1152" y="252"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="hammer.confidencemap.ConfidenceMap" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/confidencemap/ConfidenceMap.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="38" width="208" x="557" y="353"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="hammer.forwardmodel.ForwardModel" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/forwardmodel/ForwardModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="28" width="143" x="974" y="356"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="hammer.forwardmodel.SimpleForwardModel" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/forwardmodel/SimpleForwardModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="145" x="974" y="411"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="hammer.inversemodel.InverseModel" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/inversemodel/InverseModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="27" width="145" x="822" y="356"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="hammer.inversemodel.SimpleInverseModel" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/inversemodel/SimpleInverseModel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="22" width="154" x="818" y="411"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="hammer.signals.Signals" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/signals/Signals.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="38" width="196" x="1154" y="356"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="hammer.threadweaver.ThreadWeaver" project="HammerImpt" 
+    file="/HammerImpt/src/hammer/threadweaver/ThreadWeaver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="299" x="819" y="219"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <association id="16">    
+    <bendpoint x="818" y="249"/>    
+    <bendpoint x="771" y="248"/>    
+    <bendpoint x="770" y="161"/>    
+    <bendpoint x="737" y="161"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="17" name="core_">        
+        <position height="0" width="0" x="157" y="-1"/>      
+      </attribute>      
+      <multiplicity id="18" minimum="0" maximum="1">        
+        <position height="0" width="0" x="157" y="-1"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="20" name="weaver">        
+        <position height="0" width="0" x="-3" y="-346"/>      
+      </attribute>      
+      <multiplicity id="21" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-3" y="-346"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="22">    
+    <bendpoint x="1114" y="157"/>    
+    <bendpoint x="1129" y="157"/>    
+    <bendpoint x="1129" y="262"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="23" name="target_">        
+        <position height="0" width="0" x="478" y="-261"/>      
+      </attribute>      
+      <multiplicity id="24" minimum="0" maximum="1">        
+        <position height="0" width="0" x="478" y="-261"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="25">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="26" name="predState_">        
+        <position height="0" width="0" x="-256" y="-277"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-256" y="-277"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="29">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="30" name="base">        
+        <position height="0" width="0" x="240" y="-774"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="240" y="-774"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="33" name="state_">        
+        <position height="0" width="0" x="478" y="-261"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="1">        
+        <position height="0" width="0" x="478" y="-261"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="35">    
+    <bendpoint x="865" y="319"/>    
+    <bendpoint x="865" y="337"/>    
+    <bendpoint x="660" y="336"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="36" name="currentConfidences_">        
+        <position height="0" width="0" x="109" y="-674"/>      
+      </attribute>      
+      <multiplicity id="37" minimum="0" maximum="1">        
+        <position height="0" width="0" x="109" y="-674"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="38">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="39" name="pimpl_">        
+        <position height="0" width="0" x="282" y="-609"/>      
+      </attribute>      
+      <multiplicity id="40" minimum="0" maximum="1">        
+        <position height="0" width="0" x="282" y="-609"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="42">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="43" name="myCore">        
+        <position height="0" width="0" x="281" y="-345"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="1">        
+        <position height="0" width="0" x="281" y="-345"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="45">    
+    <bendpoint x="642" y="229"/>    
+    <bendpoint x="642" y="242"/>    
+    <bendpoint x="588" y="242"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="46" name="coreThread_">        
+        <position height="0" width="0" x="255" y="-776"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="1">        
+        <position height="0" width="0" x="255" y="-776"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="49">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="50" name="myWorld">        
+        <position height="0" width="0" x="479" y="12"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1">        
+        <position height="0" width="0" x="479" y="12"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="52">    
+    <bendpoint x="996" y="320"/>    
+    <bendpoint x="997" y="337"/>    
+    <bendpoint x="1044" y="337"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="53" name="forwardModel_">        
+        <position height="0" width="0" x="-83" y="-687"/>      
+      </attribute>      
+      <multiplicity id="54" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-83" y="-687"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="55">    
+    <bendpoint x="945" y="319"/>    
+    <bendpoint x="945" y="336"/>    
+    <bendpoint x="894" y="337"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="56" name="inverseModel_">        
+        <position height="0" width="0" x="-31" y="-688"/>      
+      </attribute>      
+      <multiplicity id="57" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-31" y="-688"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="58">    
+    <bendpoint x="670" y="228"/>    
+    <bendpoint x="670" y="240"/>    
+    <bendpoint x="720" y="240"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="59" name="sortedWeavers_">        
+        <position height="0" width="0" x="240" y="-774"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="240" y="-774"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="61">    
+    <bendpoint x="1081" y="319"/>    
+    <bendpoint x="1081" y="335"/>    
+    <bendpoint x="1250" y="336"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="62" name="signals_">        
+        <position height="0" width="0" x="-254" y="-666"/>      
+      </attribute>      
+      <multiplicity id="63" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-254" y="-666"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="false">    
+    <attributes public="true" package="false" protected="true" private="true" static="true"/>    
+    <operations public="true" package="false" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>
