@@ -1,0 +1,75 @@
+close all;
+clear all;
+
+PatientSimuHistory=readtable('PatientSimuHistory.dat');
+figure;
+lastN=5*24*60;
+
+plot([1:lastN]/1440,PatientSimuHistory.G(end-lastN+1:end));
+hold on
+plot([1:lastN]/1440,180*ones(1,lastN),'r--')
+plot([1:lastN]/1440,70*ones(1,lastN),'r--')
+plot([1:lastN]/1440,112.5*ones(1,lastN),'k--')
+axis([0 5 60 250])
+grid on;
+xlabel('Day');
+ylabel('Glucose Level  (mg/dl)')
+title('T1DM Patient Simulation')
+legend('Fixed Plan','Reco Plan','Hyperglycemia level','Hypoglycemia level','Target level')
+
+gl=PatientSimuHistory.G;
+vrange=20*24*60;
+target=112.5;
+vArray=[];
+for i=1:size(gl,1)-vrange+1
+    vArray=[vArray;var(gl(i:i+vrange-1)-target)];
+end
+
+
+figure;
+hold on;
+PatientSimuHistory1=readtable('pretrain/notrain100day1.dat');
+PatientSimuHistory2=readtable('pretrain/notrain100day2.dat');
+PatientSimuHistory3=readtable('pretrain/notrain100day3.dat');
+PatientSimuHistory4=readtable('pretrain/notrain100day4.dat');
+PatientSimuHistory5=readtable('pretrain/notrain100day5.dat');
+vArray1=[];
+gl=PatientSimuHistory1.G;
+for i=1:size(gl,1)-vrange+1
+    vArray1=[vArray1;var(gl(i:i+vrange-1)-target)];
+end
+plot([1:size(vArray1,1)]/1440,vArray1);
+
+vArray2=[];
+gl=PatientSimuHistory2.G;
+for i=1:size(gl,1)-vrange+1
+    vArray2=[vArray2;var(gl(i:i+vrange-1)-target)];
+end
+plot([1:size(vArray2,1)]/1440,vArray2);
+
+vArray3=[];
+gl=PatientSimuHistory3.G;
+for i=1:size(gl,1)-vrange+1
+    vArray3=[vArray3;var(gl(i:i+vrange-1)-target)];
+end
+plot([1:size(vArray3,1)]/1440,vArray3);
+
+vArray4=[];
+gl=PatientSimuHistory4.G;
+for i=1:size(gl,1)-vrange+1
+    vArray4=[vArray4;var(gl(i:i+vrange-1)-target)];
+end
+plot([1:size(vArray4,1)]/1440,vArray4);
+
+vArray5=[];
+gl=PatientSimuHistory5.G;
+for i=1:size(gl,1)-vrange+1
+    vArray5=[vArray5;var(gl(i:i+vrange-1)-target)];
+end
+plot([1:size(vArray5,1)]/1440,vArray5);
+
+figure;
+plot([1:size(vArray5,1)]/1440,(vArray1+vArray2+vArray3+vArray4+vArray5)/5);
+
+figure;
+plot([1:size(gl,1)]/1440,gl)
